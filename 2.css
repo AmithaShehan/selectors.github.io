@@ -1,0 +1,17 @@
+/* Descendant and child combinations */
+/* all h1 in divs */
+div h1{
+ color: red;
+}
+/* to select the direct child of the dev */
+div >h1{
+ color: blue;
+}
+/*this can over ride*/
+.header h1{
+ color: green;
+}
+/* to select the direct child of the dev */
+.header > h1{
+ color: purple;
+}

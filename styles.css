@@ -1,0 +1,19 @@
+/*basic selectors*/
+*{
+ color: red;
+}
+#heading{
+ font-size: 40px;
+ text-transform: uppercase;
+ color: blue; /*over ride*/
+}
+.heading{
+ font-size:  20px;
+ text-transform: capitalize;
+ color: green;
+}
+p{
+ letter-spacing: 20px;
+}
+
+

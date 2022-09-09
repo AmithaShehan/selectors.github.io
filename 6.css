@@ -1,0 +1,21 @@
+/* :root root element of the document */
+/* html elements
+general styles
+css variables */
+
+:root{
+ /* background: red; */
+ font-size: 150%;
+}
+/*1re, = 16px*/
+h1{
+ font-size: 3rem;
+}
+
+.absolute{
+ font-size: 24px; /*absolute, so no change even if we change root value*/
+}
+/*size changes as we change font size in browser settings*/
+.responsive {
+ font-size: 1.5rem; /*changes according to root */
+}

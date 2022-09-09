@@ -1,0 +1,12 @@
+/* :hover */
+
+p:hover{
+ color: red;
+}
+.header:hover{
+ color: blue;
+ background: pink;
+}
+a:hover{
+ text-decoration: none;
+}
